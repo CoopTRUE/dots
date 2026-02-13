@@ -32,4 +32,6 @@ alias pspush="planetscale-command"
 
 alias grd="git rebase origin/dev"
 
+alias brewdump="brew bundle dump --describe --file=~/Brewfile --force"
+
 alias dots='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
