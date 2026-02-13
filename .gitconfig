@@ -1,0 +1,7 @@
+[user]
+	email = cooperoliff@gmail.com
+	name = CoopTRUE
+[commit]
+	gpgsign = true
+[tag]
+	gpgSign = true

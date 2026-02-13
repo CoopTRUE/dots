@@ -1,0 +1,15 @@
+theme = Builtin Tango Dark
+
+shell-integration-features = no-cursor,sudo,title,ssh-terminfo,ssh-env
+
+font-family = BerkeleyMono Nerd Font SemiCondensed
+font-feature = -calt, -liga, -dlig
+font-size = 17
+
+window-colorspace = display-p3
+window-padding-x = 8
+window-padding-y = 4
+
+background-opacity = 0.75
+background-blur = 8
+keybind = shift+enter=text:\x1b\r
