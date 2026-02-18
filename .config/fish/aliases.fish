@@ -35,3 +35,10 @@ alias grd="git rebase origin/dev"
 alias brewdump="brew bundle dump --describe --file=~/Brewfile --force"
 
 alias dots='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+
+# Stream Twitch channels via streamlink + IINA
+function stream
+    bash ~/.config/scripts/stream.sh $argv
+end
+
+alias knx="stream knxwledge audio_only"
