@@ -33,9 +33,6 @@ alias pspush="planetscale-command"
 alias grd="git rebase origin/dev"
 alias gpf="git push --force-with-lease"
 
-alias brewdump="brew bundle dump --describe --file=~/Brewfile --force"
-alias brewfreeze="brew bundle dump --describe --file=~/Brewfile --force"
-
 alias dots='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 alias dotsupdate='dots commit -a -m "Update dots" && dots push'
 
