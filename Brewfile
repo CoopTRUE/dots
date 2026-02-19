@@ -23,6 +23,8 @@ brew "cmatrix"
 brew "fastfetch"
 # Simple, fast and user-friendly alternative to find
 brew "fd"
+# Play, record, convert, and stream select audio and video codecs
+brew "ffmpeg"
 # User-friendly command-line shell for UNIX-like operating systems
 brew "fish"
 # Fast and simple Node.js version manager
@@ -33,6 +35,8 @@ brew "python@3.14"
 brew "gallery-dl"
 # GitHub command-line tool
 brew "gh"
+# Syntax-highlighting pager for git and diff output
+brew "git-delta"
 # GNU Privacy Guard (OpenPGP)
 brew "gnupg"
 # Open source programming language to build simple/reliable/efficient software
@@ -45,6 +49,10 @@ brew "lsd"
 brew "mysql"
 # Open source relational database management system
 brew "mysql-client"
+# Ambitious Vim-fork focused on extensibility and agility
+brew "neovim"
+# Renders an animated, color, ANSI-text loop of the Poptart Cat
+brew "nyancat"
 # HTTP load generator, inspired by rakyll/hey with tui animation
 brew "oha"
 # Pinentry for GPG on Mac
@@ -55,6 +63,8 @@ brew "postgresql@17"
 brew "python-tk@3.14"
 # Cross-shell prompt for astronauts
 brew "starship"
+# CLI for extracting streams from various websites to a video player
+brew "streamlink"
 # Internet file retriever
 brew "wget"
 # Feature-rich command-line audio/video downloader
@@ -84,6 +94,8 @@ cask "font-jetbrains-mono-nerd-font"
 cask "ghostty"
 # Web browser
 cask "google-chrome"
+# Free and open-source media player
+cask "iina"
 # Keyboard customiser
 cask "karabiner-elements"
 # Minecraft modding platform
@@ -145,3 +157,4 @@ vscode "wayou.vscode-todo-highlight"
 vscode "yoavbls.pretty-ts-errors"
 vscode "ziglang.vscode-zig"
 cargo "diesel_cli"
+cargo "ttysvr"

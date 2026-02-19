@@ -1,5 +1,6 @@
 {
   "model": "opus",
   "fastMode": true,
-  "skipDangerousModePermissionPrompt": true
+  "skipDangerousModePermissionPrompt": true,
+  "effortLevel": "medium"
 }

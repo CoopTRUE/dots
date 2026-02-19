@@ -18,6 +18,13 @@ test -f ~/.config/fish/aliases.local.fish && source ~/.config/fish/aliases.local
 source ~/.config/fish/aliases.fish
 
 
+# Don't save cldi commands to history
+function fish_should_add_to_history
+    string match -qr '^cldi( |$)' -- $argv[1]
+    and return 1
+    return 0
+end
+
 starship init fish | source
 if status is-interactive
     fastfetch
