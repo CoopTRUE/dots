@@ -18,7 +18,7 @@ When mentioning that a PR stacks on top of another PR, reference it by PR number
 
 ## Dotfiles
 
-Dotfiles are managed with a bare git repo at `$HOME/.cfg/` with the work tree set to `$HOME`. The `dots` alias wraps git for this: `dots` is equivalent to `git --git-dir=$HOME/.cfg/ --work-tree=$HOME`. Use `dots` instead of `git` when working with dotfiles (e.g., `dots add`, `dots commit`, `dots push`). The `dotsupdate` alias runs `dots commit -a -m "Update dots"` as a quick commit shortcut.
+Dotfiles are managed with a bare git repo at `$HOME/.cfg/` with the work tree set to `$HOME`. The `dots` alias wraps git for this: `dots` is equivalent to `git --git-dir=$HOME/.cfg/ --work-tree=$HOME`. Use `dots` instead of `git` when working with dotfiles (e.g., `dots add`, `dots commit`, `dots push`). The `dotsupdate` alias commits all changes and pushes: `dots commit -a -m "Update dots" && dots push`.
 
 Key dotfile locations:
 - Fish config: `~/.config/fish/config.fish`
