@@ -36,6 +36,8 @@ alias gpf="git push --force-with-lease"
 alias dots='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 alias dotsupdate='dots commit -a -m "Update dots" && dots push'
 
+alias brewdump="brew bundle dump --describe --file=~/Brewfile --force"
+
 # Stream Twitch channels via streamlink + IINA
 function stream
     bash ~/.config/scripts/stream.sh $argv
