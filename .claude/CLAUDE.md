@@ -11,3 +11,7 @@ Examples of good messages:
 - "Added max discounts per chat"
 
 Keep them under ~70 characters when possible. Sentence case, no trailing period.
+
+## Pull Request Descriptions
+
+When mentioning that a PR stacks on top of another PR, reference it by PR number (e.g., `#123`) rather than branch name.

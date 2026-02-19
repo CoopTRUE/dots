@@ -31,6 +31,7 @@ alias psdr="planetscale-command --deploy"
 alias pspush="planetscale-command"
 
 alias grd="git rebase origin/dev"
+alias gpf="git push --force-with-lease"
 
 alias brewdump="brew bundle dump --describe --file=~/Brewfile --force"
 
@@ -42,3 +43,4 @@ function stream
 end
 
 alias knx="stream knxwledge audio_only"
+alias dvd="ttysvr logo"
