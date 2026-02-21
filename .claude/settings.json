@@ -1,6 +1,9 @@
 {
   "model": "opus",
-  "fastMode": true,
+  "enabledPlugins": {
+    "rust-analyzer-lsp@claude-plugins-official": true
+  },
   "skipDangerousModePermissionPrompt": true,
-  "effortLevel": "medium"
+  "effortLevel": "medium",
+  "fastMode": true
 }

@@ -1,3 +1,4 @@
+eval (/opt/homebrew/bin/brew shellenv)
 
 set -U fish_greeting ""
 
@@ -5,6 +6,7 @@ set -U fish_greeting ""
 set -g fish_color_command blue
 set -g fish_color_valid_path --underline
 
+# bun
 set --export BUN_INSTALL "$HOME/.bun"
 set --export PATH $BUN_INSTALL/bin $PATH
 
@@ -16,7 +18,6 @@ set -gx CPPFLAGS "-I/opt/homebrew/opt/mysql-client/include -I/opt/homebrew/opt/p
 
 test -f ~/.config/fish/aliases.local.fish && source ~/.config/fish/aliases.local.fish
 source ~/.config/fish/aliases.fish
-
 
 # Don't save cldi commands to history
 function fish_should_add_to_history
