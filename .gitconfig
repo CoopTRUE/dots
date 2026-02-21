@@ -8,10 +8,18 @@
 	gpgSign = true
 [core]
 	pager = delta
+	whitespace = trailing-space,space-before-tab,tab-in-indent,cr-at-eol
+	eol = lf
+	autocrlf = input
+	ignorecase = false
 [interactive]
 	diffFilter = delta --color-only
 [delta]
 	navigate = true
 	dark = true
+[apply]
+	whitespace = fix
+[init]
+	defaultBranch = main
 [merge]
 	conflictStyle = zdiff3
